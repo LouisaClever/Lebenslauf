@@ -18,15 +18,22 @@
 }
 
 h1{
-  font-size: 60;
+  font-size: 60; color: black;
   border-bottom: 1px solid black;
+  font-family: sans-serif;
 
 }
 
+h2{
+  font-size: 40; color: black;
+  font-family: sans-serif;
+}
 
 body{
 
   background-color: ecbd00;
+  margin: 0;
+  padding: 0;
 
   }
 
@@ -44,8 +51,9 @@ h3 {
 .wrapper {
   background-color: white;
   padding: 20px;
+  padding-top: 150px;
   width: 800px;
-  margin-left: 100px;
+  margin-left: auto;
   margin-right: auto;
   font-family: sans-serif;
 }
@@ -58,5 +66,24 @@ h3 {
   .Schulbildung strong{
   display: inline-block;
   width: 220px;
+
+}
+.Praktika_und_Nebentätigkeiten strong{
+display: inline-block;
+width: 220px;
+
+}
+
+.navfixed {
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  box-shadow: 0px 3px 15px rgba(0,0,0,0.5);
+}
+
+.navinline {
+  display: inline-block;
+  padding: 0 71;
+  padding-bottom: 0;
 
 }
